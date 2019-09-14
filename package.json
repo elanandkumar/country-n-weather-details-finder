@@ -2,6 +2,7 @@
   "name": "country-details-finder",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://elanandkumar.github.io/country-n-weather-details-finder",
   "dependencies": {
     "axios": "^0.19.0",
     "gh-pages": "^2.1.1",
