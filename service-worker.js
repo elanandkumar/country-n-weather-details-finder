@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/country-n-weather-details-finder/precache-manifest.3e2cb7577d0298b5fbd4dc0989b5f9ec.js"
+  "/country-n-weather-details-finder/precache-manifest.8e3b3414f14b0bfd91cf76e63099a4ab.js"
 );
 
 self.addEventListener('message', (event) => {
