@@ -4,11 +4,11 @@
   "private": true,
   "homepage": "https://elanandkumar.github.io/country-n-weather-details-finder",
   "dependencies": {
-    "axios": "^0.19.0",
-    "gh-pages": "^2.1.1",
+    "axios": "^1.8.4",
+    "gh-pages": "^6.3.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -20,6 +20,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <10.0.0",
+    "node": ">=16.0.0 <18.0.0"
   },
   "browserslist": {
     "production": [

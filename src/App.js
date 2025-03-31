@@ -1,10 +1,10 @@
 import React from "react";
 import axios from "axios";
+import {getFlagEmoji} from './utils';
 import "./App.css";
 
-const ACCESS_KEY = "c1982046f9103655b99b8587bba2d55b";
-const COUNTRY_API = "https://restcountries.eu/rest/v2/all";
-const WEATHER_API = `http://api.weatherstack.com/current?access_key=${ACCESS_KEY}&query=`;
+const COUNTRY_API = `https://api.countrylayer.com/v2/all?access_key=${process.env.REACT_APP_ACCESS_KEY_COUNTRY_LAYER}`;
+const WEATHER_API = `https://api.weatherstack.com/current?access_key=${process.env.REACT_APP_ACCESS_KEY_WEATHER_STACK}&query=`;
 
 function App() {
   const [countries, setCountries] = React.useState([]);
@@ -40,13 +40,8 @@ function App() {
           <div>
             <strong>Population:</strong> {country.population}
           </div>
-          <h4>Languages</h4>
-          <ul>
-            {country.languages.map(language => (
-              <li>{language.name}</li>
-            ))}
-          </ul>
-          <img width="100" height="auto" src={country.flag} alt="flag" />
+          <div><span>{getFlagEmoji(country.alpha2Code)}</span></div>
+          {/* <img width="100" height="auto" src={country.flag} alt="flag" /> */}
         </div>
         {weather && (
           <div className="weather-info">
@@ -70,13 +65,14 @@ function App() {
   const getWeatherForCountry = (country = selectedCountry) =>
     axios
       .get(`${WEATHER_API}${country.name}`)
-      .then(response => response.data && response.data.current)
+      .then(response => response?.data?.current)
       .catch(err => console.error(err));
 
   const showCountryDetailsHandler = country => {
     if (country) {
       setIsLoading(true);
       getWeatherForCountry(country).then(weather => {
+        console.log(country, weather);
         setSelectedCountry({
           country,
           weather
@@ -88,7 +84,7 @@ function App() {
   };
 
   const renderLoader = () => (
-    <div class="lds-ripple">
+    <div className="lds-ripple">
       <div></div>
       <div></div>
     </div>
