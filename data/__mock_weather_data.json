@@ -1,0 +1,59 @@
+{
+    "request": {
+        "type": "City",
+        "query": "Porto-Novo, Benin",
+        "language": "en",
+        "unit": "m"
+    },
+    "location": {
+        "name": "Porto-Novo",
+        "country": "Benin",
+        "region": "Oueme",
+        "lat": "6.483",
+        "lon": "2.617",
+        "timezone_id": "Africa\/Porto-Novo",
+        "localtime": "2025-03-31 05:46",
+        "localtime_epoch": 1743399960,
+        "utc_offset": "1.0"
+    },
+    "current": {
+        "observation_time": "04:46 AM",
+        "temperature": 26,
+        "weather_code": 113,
+        "weather_icons": [
+            "https:\/\/cdn.worldweatheronline.com\/images\/wsymbols01_png_64\/wsymbol_0008_clear_sky_night.png"
+        ],
+        "weather_descriptions": [
+            "Clear "
+        ],
+        "astro": {
+            "sunrise": "06:48 AM",
+            "sunset": "06:59 PM",
+            "moonrise": "08:20 AM",
+            "moonset": "09:06 PM",
+            "moon_phase": "Waxing Crescent",
+            "moon_illumination": 4
+        },
+        "air_quality": {
+            "co": "364.45",
+            "no2": "3.7",
+            "o3": "46",
+            "so2": "0.925",
+            "pm2_5": "15.355",
+            "pm10": "32.19",
+            "us-epa-index": "1",
+            "gb-defra-index": "1"
+        },
+        "wind_speed": 12,
+        "wind_degree": 245,
+        "wind_dir": "WSW",
+        "pressure": 1007,
+        "precip": 0,
+        "humidity": 80,
+        "cloudcover": 12,
+        "feelslike": 29,
+        "uv_index": 0,
+        "visibility": 10,
+        "is_day": "no"
+    }
+}

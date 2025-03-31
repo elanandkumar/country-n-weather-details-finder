@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/country-n-weather-details-finder/static/css/main.3cc0c70b.chunk.css",
-    "main.js": "/country-n-weather-details-finder/static/js/main.1e0b49ea.chunk.js",
-    "main.js.map": "/country-n-weather-details-finder/static/js/main.1e0b49ea.chunk.js.map",
-    "runtime~main.js": "/country-n-weather-details-finder/static/js/runtime~main.5143d203.js",
-    "runtime~main.js.map": "/country-n-weather-details-finder/static/js/runtime~main.5143d203.js.map",
-    "static/js/2.c55f7d8f.chunk.js": "/country-n-weather-details-finder/static/js/2.c55f7d8f.chunk.js",
-    "static/js/2.c55f7d8f.chunk.js.map": "/country-n-weather-details-finder/static/js/2.c55f7d8f.chunk.js.map",
+    "main.css": "/country-n-weather-details-finder/static/css/main.b5998b8b.css",
+    "main.js": "/country-n-weather-details-finder/static/js/main.a295b415.js",
     "index.html": "/country-n-weather-details-finder/index.html",
-    "precache-manifest.573c29b8329cca602dcfc3a86f68fcb8.js": "/country-n-weather-details-finder/precache-manifest.573c29b8329cca602dcfc3a86f68fcb8.js",
-    "service-worker.js": "/country-n-weather-details-finder/service-worker.js",
-    "static/css/main.3cc0c70b.chunk.css.map": "/country-n-weather-details-finder/static/css/main.3cc0c70b.chunk.css.map"
-  }
+    "main.b5998b8b.css.map": "/country-n-weather-details-finder/static/css/main.b5998b8b.css.map",
+    "main.a295b415.js.map": "/country-n-weather-details-finder/static/js/main.a295b415.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5998b8b.css",
+    "static/js/main.a295b415.js"
+  ]
 }
