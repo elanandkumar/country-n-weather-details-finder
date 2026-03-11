@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://elanandkumar.github.io/country-n-weather-details-finder",
   "dependencies": {
-    "axios": "^1.8.4",
+    "axios": "^1.13.5",
     "gh-pages": "^6.3.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
